@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.sound.min.js"></script>
+
+</head>
+<body background="R.jpg">
+<center>
+  	<h3  class="btn btn-info heading">8D AI DJ MUSIC WEB APP
+	    <br>
+	    <span class="note">NOTE - PUT VOLUME AT FULL AND USE HEADPHONES!  Show your left-hand wrist to play song 1. 
+        Show your right-hand wrist to play song 2. ENJOY</span>
+  	</h3>
+    <div class="div_speed">
+      <img src="a4b9d13da63402ef76641566851a3546.gif" class="div_speed_img">
+      <br>
+      <h3 class="btn btn-danger" id="speed"> <span class="glyphicon glyphicon-qrcode"></span></h3>
+    </div>
+    <div class="div_volume">
+      <img src="c5b0bebbe339af870d5a4f69710d0469.gif" class="div_volume_img">
+      <br>
+      <h3 class="btn btn-danger" id="volume"><span class="glyphicon glyphicon-qrcode"></span></h3>
+    </div>
+	<br><br>
+  <button onclick="play();" class="btn btn-success play_button"></button>
+  <button onclick="pause();" class="btn btn-danger pause_button"><span class="glyphicon glyphicon-pause"></span></button>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
